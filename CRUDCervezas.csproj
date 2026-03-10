@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-</Project>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="DBContext\" />
+  </ItemGroup>
+
+</Project> 
