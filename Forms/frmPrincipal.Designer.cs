@@ -30,9 +30,9 @@
         {
             dataGridView1 = new DataGridView();
             GroupBox1 = new GroupBox();
-            button1 = new Button();
-            button2 = new Button();
             button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             GroupBox1.SuspendLayout();
             SuspendLayout();
@@ -58,14 +58,14 @@
             GroupBox1.TabStop = false;
             GroupBox1.Text = "Acciones";
             // 
-            // button1
+            // button3
             // 
-            button1.Location = new Point(43, 63);
-            button1.Name = "button1";
-            button1.Size = new Size(184, 59);
-            button1.TabIndex = 0;
-            button1.Text = "Agregar";
-            button1.UseVisualStyleBackColor = true;
+            button3.Location = new Point(43, 265);
+            button3.Name = "button3";
+            button3.Size = new Size(184, 54);
+            button3.TabIndex = 2;
+            button3.Text = "Eliminar";
+            button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -76,24 +76,24 @@
             button2.Text = "Modificar";
             button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // button1
             // 
-            button3.Location = new Point(43, 265);
-            button3.Name = "button3";
-            button3.Size = new Size(184, 54);
-            button3.TabIndex = 2;
-            button3.Text = "Eliminar";
-            button3.UseVisualStyleBackColor = true;
+            button1.Location = new Point(43, 63);
+            button1.Name = "button1";
+            button1.Size = new Size(184, 59);
+            button1.TabIndex = 0;
+            button1.Text = "Agregar";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(924, 384);
             Controls.Add(GroupBox1);
             Controls.Add(dataGridView1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "frmPrincipal";
+            Text = "CRUD Cervezas";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             GroupBox1.ResumeLayout(false);
             ResumeLayout(false);
